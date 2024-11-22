@@ -1,5 +1,7 @@
 package theater.seating;
 
+import theater.seating.SeatType;
+
 public class Seat {
 
     private final String id;
@@ -18,9 +20,9 @@ public class Seat {
         this.hasGift = hasGift;
     }
 
-    private final theater.seating.SeatType seatType;
+    private final SeatType seatType;
 
-    public theater.seating.SeatType getSeatType() {
+    public SeatType getSeatType() {
         return seatType;
     }
 
@@ -34,7 +36,7 @@ public class Seat {
         this.isOccupied = isOccupied;
     }
 
-    public Seat(String id, boolean hasGift, theater.seating.SeatType seatType) {
+    public Seat(String id, boolean hasGift, SeatType seatType) {
         this.id = id;
         this.hasGift = hasGift;
         this.seatType = seatType;

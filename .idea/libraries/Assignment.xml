@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Assignment">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/junit5all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/checkthat.jar!/" />
+      <root url="jar://$PROJECT_DIR$/checkagent.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
