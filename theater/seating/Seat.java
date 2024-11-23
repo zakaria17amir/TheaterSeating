@@ -41,4 +41,9 @@ public class Seat {
         this.hasGift = hasGift;
         this.seatType = seatType;
     }
+
+    @Override
+    public String toString() {
+        return this.seatType + " ";
+    }
 }

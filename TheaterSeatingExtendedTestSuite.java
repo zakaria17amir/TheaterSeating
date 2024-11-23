@@ -4,19 +4,23 @@ import org.junit.platform.suite.api.Suite;
 import theater.person.SpectatorTest;
 
 @SelectClasses({
-    TheaterSeatingExtendedTestSuite.StructuralTests.class,
-    TheaterSeatingExtendedTestSuite.FunctionalTests.class,
+        TheaterSeatingExtendedTestSuite.StructuralTests.class,
+        TheaterSeatingExtendedTestSuite.FunctionalTests.class,
 })
-@Suite public class TheaterSeatingExtendedTestSuite {
+@Suite
+public class TheaterSeatingExtendedTestSuite {
     @SelectClasses({
-        SpectatorStructureTest.class,
-        SpectatorTestStructureTest.class,
+            SpectatorStructureTest.class,
+            SpectatorTestStructureTest.class,
     })
-    @Suite public static class StructuralTests {}
+    @Suite
+    public static class StructuralTests {
+    }
 
     @SelectClasses({
-        SpectatorTest.class,
+            SpectatorTest.class,
     })
-    @Suite public static class FunctionalTests {}
+    @Suite
+    public static class FunctionalTests {
+    }
 }
-
